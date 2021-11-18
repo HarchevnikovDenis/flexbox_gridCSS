@@ -116,7 +116,6 @@ header {
 
 .promo-title h1 {
   grid-column: 1/2;
-  width: 530px;
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: normal;
