@@ -87,8 +87,6 @@ body {
   margin: 0 1.6rem;
 }
 
-/* not mine */
-
 .nav-list {
   display: flex;
   padding: 0;
@@ -184,8 +182,6 @@ body {
   line-height: 1.5em;
   color: #1a1b22;
 }
-
-/*///////////////////////// Cards ///////////////////////////////*/
 
 /*///////////////////////// Image & Buttons Cards ///////////////////////*/
 
@@ -335,7 +331,6 @@ body {
   display: inline;
 }
 
-/**footer**/
 .footer {
   max-width: 123.2rem;
   margin: 0 auto;
@@ -530,4 +525,3 @@ body {
     margin-bottom: 0;
   }
 }
-/*//////////////////////////// @media //////////////////////////////*/
