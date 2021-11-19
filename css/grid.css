@@ -153,6 +153,7 @@ header {
 /*Image & Buttons Cards*/
 
 .card {
+  background-color: white;
   max-width: 400px;
   height: 576px;
   border-radius: 16px;
@@ -300,7 +301,7 @@ footer {
   color: #b6bcbf;
 }
 
-.footer-nav-list {
+.footer-navigation-list {
   display: inline-block;
 }
 
@@ -318,7 +319,7 @@ footer {
   }
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 768px) {
   .card {
     max-width: none;
     display: grid;
@@ -344,12 +345,6 @@ footer {
     line-height: 34px;
   }
 
-  .container {
-    max-width: 688px;
-    grid-template-columns: 224px 224px 224px;
-    grid-template-rows: 66px auto auto 66px;
-  }
-
   .key-word {
     width: 88px;
     height: 40px;
@@ -360,9 +355,7 @@ footer {
   .delete-card {
     display: none;
   }
-}
 
-@media (max-width: 720px) {
   .container {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -380,7 +373,7 @@ footer {
   .menu-burger {
     display: block;
   }
-  .nav-menu {
+  .navigation-menu {
     display: none;
   }
   .catalog {
@@ -393,21 +386,22 @@ footer {
     padding: 24px 16px;
   }
   .card {
+    background-color: white;
     max-width: none;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: stretch;
   }
 
-  .footer-nav-list {
+  .footer-navigation-list {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 13px;
   }
-  .nav-title {
+  .navigation-title {
     margin: 8px;
   }
-  .footer-nav-menu {
+  .footer-navigation-menu {
     display: grid;
     align-items: flex-start;
     flex-grow: 1;

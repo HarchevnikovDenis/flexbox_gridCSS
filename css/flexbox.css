@@ -246,9 +246,6 @@ body {
   width: 40px;
   cursor: pointer;
 }
-.trash:active,
-.trash:visited {
-}
 
 .card-date {
   font-family: Source Sans Pro;
@@ -333,7 +330,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.footer-nav-list {
+.footer-navigation-list {
   display: flex;
   justify-content: space-around;
 }
@@ -364,7 +361,7 @@ body {
   font-size: 1.8rem;
   margin-right: 2.4rem;
 }
-@media (max-width: 32rem) {
+@media screen and (max-width: 768px) {
   .main-section {
     flex-direction: column;
     width: 100%;
@@ -379,7 +376,7 @@ body {
     margin: 1.6rem;
     line-height: 3.4rem;
   }
-  .nav-menu {
+  .navigation-menu {
     display: none;
   }
 
@@ -434,7 +431,7 @@ body {
     margin-top: 0;
     font-size: 1.8rem;
   }
-  .footer-nav-list {
+  .footer-navigation-list {
     width: 20rem;
     height: 7.2rem;
   }
@@ -451,7 +448,7 @@ body {
     font-size: 1.6rem;
     line-height: 6px;
   }
-  .footer-nav-list {
+  .footer-navigation-list {
     padding: 0;
     display: flex;
     flex-direction: column;
