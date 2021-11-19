@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
 }
 
-/*///////////////////////// Header //////////////////////// */
+/*Header*/
 .logo h3 {
   font-family: Roboto Slab;
   font-style: normal;
@@ -46,7 +46,7 @@ body {
 .menu-icon {
   display: none;
 }
-/*////////////////////////// Menu //////////////////////////////*/
+/*Menu*/
 
 .header {
   display: flex;
@@ -142,7 +142,7 @@ body {
   padding-right: 15px;
 }
 
-/*///////////////////////// Promo ///////////////////////////*/
+/*Promo*/
 
 .promo-title h1 {
   width: 530px;
@@ -183,7 +183,7 @@ body {
   color: #1a1b22;
 }
 
-/*///////////////////////// Image & Buttons Cards ///////////////////////*/
+/*Image & Buttons Cards*/
 
 .picture img {
   max-width: 100%;
@@ -264,7 +264,7 @@ body {
   margin-top: 12px;
 }
 
-/*/////////////////////////// Text Cards //////////////////////////*/
+/*Text Cards*/
 
 .text {
   height: 304px;
@@ -311,7 +311,7 @@ body {
   left: 24px;
 }
 
-/*//////////////////////////// Footer ////////////////////////////*/
+/*Footer*/
 
 .copyright {
   font-family: Roboto;
