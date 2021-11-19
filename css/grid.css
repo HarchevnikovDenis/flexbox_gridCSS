@@ -52,28 +52,28 @@ header {
   display: none;
 }
 
-.nav-menu {
+.navigation-menu {
   display: flex;
 }
 
-.nav-list {
+.navigation-list {
   display: flex;
   padding: 0;
   margin: 0;
   align-items: center;
 }
 
-.nav-list:last-child {
+.navigation-list:last-child {
   border-bottom: 1px solid black;
 }
 
-.nav-title {
+.navigation-title {
   display: inline;
   margin-right: 34px;
   list-style-type: none;
 }
 
-.btn {
+.button {
   width: 112px;
   border: 1px solid #1a1b22;
   box-sizing: border-box;
@@ -81,18 +81,19 @@ header {
   padding: 12px 37px 12px 19px;
 }
 
-.btn-entry {
+.button-entry {
   display: flex;
+  background-color: white;
   align-items: center;
   justify-content: center;
   padding: 12px 0px 12px 19px;
 }
 
-.btn-entry p {
+.button-entry p {
   margin: 0;
 }
 
-.btn-entry img {
+.button-entry img {
   padding-right: 15px;
 }
 
